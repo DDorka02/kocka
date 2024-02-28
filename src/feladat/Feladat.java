@@ -18,11 +18,11 @@ public class Feladat {
         int [] tomb = new int [OLDALOKSZAMA+1];
         for (int i = 0; i < dobasokszama; i++) {
             int h = (int) (Math.random()*6+1);
-            h++;
+            tomb[h]++;
         }
-        
-        for (int j=0;j<tomb.length ;j++){
-        
+        for (int j=0;j<tomb.length;j++){
+            System.out.println((dobasokszama+1)+" volt "+tomb[j]+" db");
+            
         }
         
         
